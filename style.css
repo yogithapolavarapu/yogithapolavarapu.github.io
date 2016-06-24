@@ -17,6 +17,7 @@ html {
 body,h1,h2,h3,h4,h5, {
     font-family: "Lato","Comfortaa",Arial,sans-serif;
     font-weight: 700;
+    font-size:24px;
 }
 
 footer {
@@ -109,7 +110,6 @@ button{
 }
 .btn{
    padding: 15px 10px;
-  margin:10px 4px;
   color: #fff;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -120,7 +120,7 @@ button{
   border:none;
 }
 
-.btn::before {
+.btn::before,.btn::after {
   content: '';
   position: absolute;
   bottom: 50%;
@@ -149,12 +149,7 @@ button{
   transform: scale(1, 1)
   outline:none;
   border:none;
-
 }
-
 .content{
   padding-top:50px;
-  margin:50px;
-  margin-top:30px;
-  margin-bottom:0;
 }
