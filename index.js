@@ -9,7 +9,6 @@ $(document).ready(function(){
 		$(area).show("slow");
   	});
   
-  
   $("#aboutme").click();
   
 });
