@@ -92,13 +92,14 @@ a:hover,a:focus{text-decoration:none;}
 }
 
 #profile{
-
-  height:100vh;
-  background:url(http://eykhorstsabina.com/wp-content/uploads/2014/01/BckGrnd-Dark-blue-pattern-wallpaper.jpg) no-repeat center center fixed;
+  background:url(http://eykhorstsabina.com/wp-content/uploads/2014/01/BckGrnd-Dark-blue-pattern-wallpaper.jpg) repeat;
   background-size:cover;
   -webkit-background-size:cover;
   -o-background-size:cover;
   -moz-background-size:cover; 
+}
+#about,#contact{
+height:70vh;
 }
 #about,#profile,#contact{
   color:white;
