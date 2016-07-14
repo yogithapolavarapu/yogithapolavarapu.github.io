@@ -8,7 +8,9 @@
   color:black;
 }
 
-
+strong{
+  color:white
+}
 
 body,h1,h2,h3,h4,h5, {
     font-family: "Lato","Comfortaa",Arial,sans-serif;
@@ -91,7 +93,7 @@ a:hover,a:focus{text-decoration:none;}
   background-size:cover;
   -webkit-background-size:cover;
   -o-background-size:cover;
-  -moz-background-size:cover; 
+  -moz-background-size:cover;
 }
 #about,#contact{
 height:70vh;
