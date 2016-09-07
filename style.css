@@ -80,7 +80,7 @@ a:hover,a:focus{text-decoration:none;}
   cursor:default;
 }
 #name_area{
-  height:50vh;
+  height:100vh;
   background:url(images/namearea.jpg) no-repeat center center fixed;
   background-size:cover;
   -webkit-background-size:cover;
@@ -91,6 +91,7 @@ a:hover,a:focus{text-decoration:none;}
 #profile{
   background:url(images/bodyarea.jpg) repeat;
   background-size:cover;
+  min-height: 100vh;
   -webkit-background-size:cover;
   -o-background-size:cover;
   -moz-background-size:cover;
