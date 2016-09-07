@@ -99,10 +99,17 @@ a:hover,a:focus{text-decoration:none;}
 #about,#contact{
 height:70vh;
 }
-#profile{
-  color:white;
+#about{
+  font-size: 16px;
 }
-
+#profile{
+  color:white;}
+  .text-right{
+  font-size: 48px;
+}
+.about-message{
+  padding-top: 20px;
+}
 button{
   background:none;
   border:none;
