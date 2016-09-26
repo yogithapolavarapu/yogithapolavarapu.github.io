@@ -35,6 +35,7 @@
       <div class="text-right">
         <button class="btn" id="aboutme" href="#about">Hello World</button>
         <button class="btn" id="portfolio-area" href="#portfolio">Portfolio</button>
+        <a class="btn" href="https://yogithapolavarapu.wordpress.com/" target="_blank">Blog</a>
         <button  class="btn" id="contact-info" href="#contact">Contact</button>
       </div>
       <div id="about" class="content">
@@ -201,13 +202,41 @@
       </div>
       <div id="contact" class="content ">
         <div class="row">
-          <p class="contact_para text-center">I'd love to hear from you</br> shoot me a <i class="fa fa-envelope" aria-hidden="true"></i> at <strong>
-yogithapolavar [at] gmail [dot] com</strong> </br></br> If you prefer to read my blog </br><a href="https://yogithapolavarapu.wordpress.com/" target="_blank"  <i class="fa fa-wordpress fa-stack-2x" aria-hidden="true"></i></a></br>
-          </p>
+          <p class="contact_para text-center">I'd love to hear from you</br>
+
+<form id="contact-form">
+  <p>My
+    <label for="your-name">name</label> is
+    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and</p>
+
+  <p>my
+    <label for="email">email address</label> is
+    <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+  </p>
+
+  <p> I have a
+    <label for="your-message">message</label> for you,</p>
+
+  <p>
+    <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+  </p>
+  <p>
+    <button type="submit">
+      <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+	l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+      </svg>
+      <small>send</small>
+    </button>
+  </p>
+</form>
+
+
+
+          </p><!--<p class="center"> If you prefer to read my blog </br><a href="https://yogithapolavarapu.wordpress.com/" target="_blank"  <i class="fa fa-wordpress fa-stack-2x" aria-hidden="true"></i></a></br>
+</p>-->
           <div class="col-lg-12">
             <ul class="list-inline text-center">
-              <!--<h5>around the web </h5>-->
-                    </br>
                     <p>around the web</p>
                   <!--git hub-->
               <li><a href="https://github.com/yogithapolavarapu" target="_blank">
