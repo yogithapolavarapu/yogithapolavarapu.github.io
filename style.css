@@ -301,6 +301,10 @@ button{
 .content{
   padding-top:50px;
 }
+.portfolio{
+  padding-left: 20%;
+  padding-right:20%;
+}
 .project-caption{
   max-width: 400px;
   background-color: rgba(0,0,0, 0.8);
