@@ -302,6 +302,7 @@ button{
   padding-top:50px;
 }
 .portfolio{
+  align-items: center;
   padding-left: 20%;
   padding-right:20%;
 }
@@ -322,9 +323,9 @@ button{
 }
 .project-item .portfolio-link {
   display: block;
-  position: relative;
-  max-width: 400px;
   margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #portfolio .project-item .portfolio-link .portfolio-hover {
   background: rgba(0, 0, 0, 0.7);
