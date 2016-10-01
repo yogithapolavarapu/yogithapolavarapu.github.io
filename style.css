@@ -240,6 +240,7 @@ a:hover,a:focus{text-decoration:none;}
 }
 #about,#contact{
 height:70vh;
+padding-bottom: 20px;
 }
 #about{
   font-size: 16px;
